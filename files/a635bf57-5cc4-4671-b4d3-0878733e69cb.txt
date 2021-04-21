@@ -1,0 +1,342 @@
+Microsoft Windows [Version 10.0.19042.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\>cd C:\Users\\OneDrive - National University of Singapore\Desktop\Academics\Year 1 Semester 2\CS2113T\Practical Exam\Try again
+
+C:\Users\\OneDrive - National University of Singapore\Desktop\Academics\Year 1 Semester 2\CS2113T\Practical Exam\Try again>java-jar [CS2113-W10-2][MojoHR].jar
+'java-jar' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\\OneDrive - National University of Singapore\Desktop\Academics\Year 1 Semester 2\CS2113T\Practical Exam\Try again>java -jar [CS2113-W10-2][MojoHR].jar
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+2
+Enter email address:
+a@gmail.com
+Enter password:
+Password1!
+Hello! I'm MojoHR
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+What can I do for you?
+> Use the keyword "LIST (type) " to print the emails by types
+!!! type must be one of: [allemails, inbox, archive, deleted, draft, junk, sent] !!!
+> Use the keyword "READ (index) " to open the selected email
+> Use the keyword "COMPOSE " to create a draft email
+> Use the keyword "EDIT (index) " to edit email in the draft folder
+> Use the keyword "SEND (index/ multiple indices) " to send email(s) in the draft folder
+!!! indices should be separated with a space !!!
+> Use the keyword "DELETE (index) " to delete the selected email
+> Use the keyword "FIND (keyword) " to find the  email by keywords
+> Use the keyword "ARCHIVE (index) " to move the selected email to the archive folder
+> Use the keyword "TAG (index) (tag1) (tag2)..." to select the email for tagging labels
+> Use the keyword "NUMBER (type)" to count the emails by types
+!!! type must be one of: [allemails, inbox, archive, deleted, draft, junk, sent] !!!
+> Use the keyword "SORT (type) " to sort all emails by types
+!!! type must be one of: [time, sender] !!!
+> Use the keyword "RESET" to reset the your account password
+> Use the keyword "HELP" to print the menu
+> Use the keyword "BYE" to exit
+____________________________________________________________
+Enter Command:
+Exception in thread "main" ^Cjava.util.NoSuchElementException: No line found
+
+C:\Users\\OneDrive - National University of Singapore\Desktop\Academics\Year 1 Semester 2\CS2113T\Practical Exam\Try again>java -jar [CS2113-W10-2][MojoHR].jar
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+1
+Enter email address:
+3
+Enter password:
+asdf
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error Message:
+Wrong Email Address and/or Password. Please try again!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+2
+Enter email address:
+abc@gmail.com|
+Enter password:
+Password2@
+Warning: Incomplete email address or invalid email domain.
+Supported Email domains are: [gmail.com, yahoo.com, outlook.com, hotmail.com]
+Enter email address:
+a|bc@gmail.com
+Enter password:
+Password2@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error Message:
+Wrong Email Address and/or Password. Please try again!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+2
+Enter email address:
+ab|c@gmail.com
+Enter password:
+Password3#
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error Message:
+Wrong Email Address and/or Password. Please try again!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+1
+Enter email address:
+ab|c@gmail.com
+Enter password:
+Password3#
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error Message:
+Wrong Email Address and/or Password. Please try again!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+2
+Enter email address:
+a |bcd@gmail.com
+Enter password:
+Password4$
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error Message:
+Wrong Email Address and/or Password. Please try again!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+2
+Enter email address:
+abc@gmail.com|abc
+Enter password:
+Password1!
+Warning: Incomplete email address or invalid email domain.
+Supported Email domains are: [gmail.com, yahoo.com, outlook.com, hotmail.com]
+Enter email address:
+abc@gmail.com | abc
+Enter password:
+Password1!
+Warning: Incomplete email address or invalid email domain.
+Supported Email domains are: [gmail.com, yahoo.com, outlook.com, hotmail.com]
+Enter email address:
+asdf
+Enter password:
+adf
+Warning: Incomplete email address or invalid email domain.
+Supported Email domains are: [gmail.com, yahoo.com, outlook.com, hotmail.com]
+Invalid Password: Password length should be between 8 to 15 characters
+Enter email address:
+Exception in thread "main" java.util.NoSuchElementException: No line found
+^C
+C:\Users\\OneDrive - National University of Singapore\Desktop\Academics\Year 1 Semester 2\CS2113T\Practical Exam\Try again>java -jar [CS2113-W10-2][MojoHR].jar
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+1
+Enter email address:
+a|bc@gmail.com
+Enter password:
+Password2@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error Message:
+Wrong Email Address and/or Password. Please try again!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+2
+Enter email address:
+abc@gmail.com
+Enter password:
+Password2@ | Password2@
+Invalid Password: Password length should be between 8 to 15 characters
+Enter email address:
+abc@gmail.com
+Enter password:
+Pass2@ | Pass2@
+Invalid Password: Password should not contain any space
+Enter email address:
+abc@gmail.com
+Enter password:
+Pass2@|Pass2@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error Message:
+Wrong Email Address and/or Password. Please try again!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+2
+Enter email address:
+a@gmail.com
+Enter password:
+Password2@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error Message:
+You already have an account. Please log in instead!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+2
+Enter email address:
+a@gmail.com
+Enter password:
+Password3#
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error Message:
+You already have an account. Please log in instead!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+
+Select either 1 or 2 or 3 (use numbers):
+[Emails address are case sensitive!]
+1. Log In
+2. Create a new account
+3. Exit
+Enter choice:
+2
+Enter email address:
+abcd@gmail.com
+Enter password:
+Pass2@|Pass2@
+Hello! I'm MojoHR
+ _________   _____   _____   _____
+|  _   _  | |  _  | |_   _| |  _  |
+| | | | | | | | | |   | |   | | | |
+| | | | | | | |_| |  _| |   | |_| |
+|_| |_| |_| |_____| |___|   |_____|
+What can I do for you?
+> Use the keyword "LIST (type) " to print the emails by types
+!!! type must be one of: [allemails, inbox, archive, deleted, draft, junk, sent] !!!
+> Use the keyword "READ (index) " to open the selected email
+> Use the keyword "COMPOSE " to create a draft email
+> Use the keyword "EDIT (index) " to edit email in the draft folder
+> Use the keyword "SEND (index/ multiple indices) " to send email(s) in the draft folder
+!!! indices should be separated with a space !!!
+> Use the keyword "DELETE (index) " to delete the selected email
+> Use the keyword "FIND (keyword) " to find the  email by keywords
+> Use the keyword "ARCHIVE (index) " to move the selected email to the archive folder
+> Use the keyword "TAG (index) (tag1) (tag2)..." to select the email for tagging labels
+> Use the keyword "NUMBER (type)" to count the emails by types
+!!! type must be one of: [allemails, inbox, archive, deleted, draft, junk, sent] !!!
+> Use the keyword "SORT (type) " to sort all emails by types
+!!! type must be one of: [time, sender] !!!
+> Use the keyword "RESET" to reset the your account password
+> Use the keyword "HELP" to print the menu
+> Use the keyword "BYE" to exit
+____________________________________________________________
+Enter Command:
